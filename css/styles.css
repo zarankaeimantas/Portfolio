@@ -1,0 +1,48 @@
+body{
+	background-image: url('../images/bg.jpg');
+	  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+}
+
+.nomalText
+{
+  font-family : Open Sans Condensed;
+  font-weight : bold;
+  font-size : 1.2vw;
+  color : #F9F9F9;
+  color : rgb(249, 249, 249);
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+.nomalText2
+{
+  font-family : Open Sans Condensed;
+  font-weight : bold;
+  font-size : 1.2vw;
+  color : #F9F9F9;
+  color : rgb(249, 249, 249);
+ }
+
+
+.headerText
+{
+  font-family : Open Sans Condensed;
+  font-weight : bold;
+  font-size : 8vw;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
