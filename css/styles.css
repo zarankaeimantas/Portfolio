@@ -15,34 +15,71 @@ body{
   background-size: cover;
 }
 
-.nomalText
+
+@media screen and (max-width: 768px) {
+    .nomalText
 {
   font-family : Open Sans Condensed;
   font-weight : bold;
-  font-size : 1.2vw;
+  font-size : 20px;
   color : #F9F9F9;
   color : rgb(249, 249, 249);
-  display: flex;
-  position: fixed;
-  align-items: center;
-  justify-content: center;
+
 }
-
-.nomalText2
-{
-  font-family : Open Sans Condensed;
-  font-weight : bold;
-  font-size : 1.2vw;
-  color : #F9F9F9;
-  color : rgb(249, 249, 249);
- }
-
 
 .headerText
 {
   font-family : Open Sans Condensed;
   font-weight : bold;
-  font-size : 8vw;
+  font-size : 80px;
   color : #FFFFFF;
   color : rgb(255, 255, 255);
 }
+
+.margin1{
+  margin-top:10px;
+}
+
+.margin3{
+  margin-top:30px;
+}
+
+.margin8{
+  margin-top:100px;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+    .nomalText
+{
+  font-family : Open Sans Condensed;
+  font-weight : bold;
+  font-size : 25px;
+  color : #F9F9F9;
+  color : rgb(249, 249, 249);
+
+}
+
+.headerText
+{
+  font-family : Open Sans Condensed;
+  font-weight : bold;
+  font-size : 140px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+
+.margin1{
+  margin-top:10px;
+}
+
+.margin3{
+  margin-top:30px;
+}
+
+.margin8{
+  margin-top:150px;
+}
+}
+
